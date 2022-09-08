@@ -18,16 +18,19 @@ body{
     height: 100px;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+
 }
 .logo{
     flex: 20%;
     margin-left: 10%;
-    /*border: 1px solid black;
-    text-align: center;*/
+    /*border: 1px solid black;*/
+    text-align: left;
 }
 .logo h1{
     font-family: 'Lobster', cursive;
-    color: #180f4a;
+    color: #38287c;
     font-size: 34px;
 }
 .menu{
@@ -43,34 +46,124 @@ body{
     padding: 20px 16px;
 }
 .menu a:hover{
-    color: #ff2978;
-    border-top: 4px solid #180f4a;
+    color:#e1474d;
+    border-top: 4px solid #38287c;
 }
 #botao{
-    background-color: #180f4a;
+    background-color: #38287c;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
     margin-right: 10%; 
     margin-left: 5%;
 }
-.botao:hover{
+#botao:hover{
+    background-color:#e1474d;
     border:none ;
-    background-color: #ff2978;
+   
 }
 .cabeçalho{
     display: flex;
     flex-flow: row wrap;
-    height: 550px;
-    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding-top: 100px;
 }
 .hedline{
     flex:40%;
     margin-left:10%;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
+}
+.hedline h2{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #38287c;
+    padding: 0px;
+    margin: 0px;
+}
+.hedline p{
+    color: gray;
+    text-align: left;
+}
+.botaoA{
+    display: inline-block;
+    background-color: #e1474d;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.botaoA:hover{
+    background-color:#38287c ;
 }
 .img{
     margin-right: 10%;
     flex: 40%;
-    border: 1px solid pink;
+   /* border: 1px solid pink;*/
 }
+section{
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+    margin-left: 5%;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    color: #38287c;
+}
+.seciço{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    margin-top: 5%;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #e1474d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-oculto{
+    display: none;
+}
+.card:hover{
+    background-color: #e1474d;
+    color: white;
+  
+ }
+ .card:hover img{
+    display: none;
+ }
+ .card:hover .cardtxt {
+    display: none;
+ }
+ .card:hover .text-oculto{
+    display: block;
+ }
+ footer{ 
+    margin-top:10%;
+    height:400px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,  #5146af, #38287c,#180f4a, black);
+    border-top: 5px solid #e1474d;
+ }
+ .logRodape{
+    padding: 100px;
+ }
+ .agencia{
+    color: white;
+    font-family: 'Lobster', cursive; 
+    font-size: 35px;
+ }
+
+
