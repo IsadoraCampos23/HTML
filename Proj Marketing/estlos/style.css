@@ -23,6 +23,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+  
 }
 nav .logo a{
     font-size: 30px;
@@ -58,16 +59,18 @@ nav ul button{
 
 }
 main{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .text{
-    margin-left: 6%; 
+  margin-left: 6%;
+    
 }
 .text h1{
-    font-size: 3rem;
+
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 .text b{
@@ -103,10 +106,15 @@ main{
     font-size: 15px;
     cursor: pointer;
   }
-  .img-bx{
-    width: 50%;
+  .icon2 img{
+    width: 60px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
   }
   .img-bx img{
     width: 100%;
   }
+
   
